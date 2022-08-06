@@ -6,7 +6,7 @@ const backupImg = {
 };
 
 async function getFox() {
-  const response = await fetch('https://randfox.ca/floof/?ref=apilist.fun');
+  const response = await fetch('https://randomfox.ca/floof/?ref=apilist.fun');
   const data = await response.json();
   console.log(data);
   return data;
